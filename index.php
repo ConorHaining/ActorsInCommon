@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Actors in Common</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="loading">
+		<img src="img/ajax-loader.gif" alt="Pacman">
+		<h2>Loading...</h2>
+	</div>
+	<div class="wrapper">
+		<div class="film1">
+			<img src="http://ia.media-imdb.com/images/M/MV5BMTczMTY0MTMzOV5BMl5BanBnXkFtZTcwNDQxMTk4Nw@@._V1._SY317_CR0,0,214,317_.jpg" alt="Breaking Bad">
+			<h3 contenteditable="true">Breaking Bad</h3>
+		</div>
+		<div class="film2">
+			<img src="http://ia.media-imdb.com/images/M/MV5BMTcwNzUxODM2Nl5BMl5BanBnXkFtZTYwMjYyMzI5._V1._SY317_CR2,0,214,317_.jpg" alt="Malcolm in the Middle">
+			<h3 contenteditable="true">Malcolm in the Middle</h3>
+		</div>
+		<div class="actors">
+			<button>Search for Actors</button>
+			<h2>Actors in common:</h2>
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+	<script src="js/jquery.js" async></script>
+	<script src="js/script.js" async></script>
+</body>
+</html>

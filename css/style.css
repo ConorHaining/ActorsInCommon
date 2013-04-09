@@ -1,0 +1,64 @@
+html{
+	background: #A0CF67;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+.film1{
+	background: #6CADDF;
+	width: 20%;
+	height: 100%;
+	margin: 100px 50px;
+	padding: 50px;
+	float: left;
+	border-radius: 10px;
+}
+.film2{
+	background: #6CADDF;
+	width: 20%;
+	height: 100%;
+	margin: 100px 50px;
+	padding: 50px;
+	float: right;
+	border-radius: 10px;
+}
+
+.film1 h3,
+.film2 h3{
+	text-align: center;
+	color: white;
+}
+
+.actors{
+	color: white;
+	width: 100%;
+	clear: both;
+	background: #5A3E9C;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.overlay{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: black;
+	opacity: 0.8;
+	display: none;
+}
+.loading{
+	position: fixed;
+	z-index: 2;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	background: #3E9C49;
+	padding: 20px;
+	border: 5px solid #255C2B;
+	border-radius: 10px;
+	display: none;
+}
