@@ -38,7 +38,12 @@ $('button').on('click', function(e) {
 		    for (var j in json.film2.actors) {
 		        if (json.film1.actors[i] == json.film2.actors[j]) {
 
-		            $(".actors ul").append("<li>" + json.film1.actors[i] + "</li>");
+			        // $(".actors ul li").remove();
+			        // $(".actors ul").append("<li>" + json.film1.actors[i] + "</li>");
+
+			        $(".actors ul").append("<li>" + json.film1.actors[i] + "</li>");
+
+		         	console.log(json.film1.actors[i]);
 		        }
 		    }
 		}
